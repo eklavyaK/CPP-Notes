@@ -8,7 +8,7 @@
 	// Example:
 	"Print to console": {
 		"scope": "cpp",
-		"prefix": "gordered_gset",
+		"prefix": "gggg_gordered_gset",
 		"body": [
 			"/*",
 			"********************************************************************************************************",

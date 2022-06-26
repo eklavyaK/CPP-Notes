@@ -8,7 +8,7 @@
 	// Example:
 	"Print to console": {
 		"scope": "cpp",
-		"prefix": "gmodular_ginverse",
+		"prefix": "gggg_gmodular_ginverse",
 		"body": [
 			"ll power(ll a, ll n){",
 			"	a%=mod1;",
