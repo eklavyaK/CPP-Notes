@@ -1,0 +1,31 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "gggg_gsieve",
+		"body": [
+			"int counter;",
+			"vector<int> prime;",
+			"void sieve(int n){",
+			"bool done[n+1]{};",
+			"counter=0;prime.clear();",
+			"int checker = sqrt(n);",
+			"for(int i=2;i<=n;i++){",
+			"\tif(done[i])continue;",
+			"\tprime.push_back(i);",
+			"\tif(i<=checker)",
+			"\tfor(int j=i*i;j<=n;j+=i)",
+			"\tif(!done[j])done[j]=1;",
+			"\tcounter++;",
+			"}",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}

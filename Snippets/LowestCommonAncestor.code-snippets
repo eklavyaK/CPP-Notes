@@ -1,0 +1,48 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "gggg_graphlca",
+		"body": [
+			"const int N = 2e5+5, LOG = 32;",
+			"int par[N][LOG], vis[N], dep[N];",
+			"vector<vector<int>> node(N);",
+			"void dfs(int u){",
+				"\tfor(auto i : node[u]){", //in case of tree dfs and bfs both work perfectly while finding depth or parent but in case of graph we prefer bfs
+					"\t\tdep[i] = dep[u]+1;",
+					"\t\tpar[i][0] = u;",
+					"\t\tfor(int j=1;j<LOG;j++){",
+						"\t\t\tpar[i][j]=par[par[i][j-1]][j-1];",
+					"\t\t}",
+					"\t\tdfs(i);",
+				"\t}",
+			"}",
+			"int lca(int u, int v){",
+				"\tif(dep[u]<dep[v]){",
+					"\t\tswap(u,v);",
+				"\t}",
+				"\tint k = dep[u]-dep[v]; ",
+				"\tfor(int i=0;i<LOG;i++){",              //bringing u and v at the same level
+					"\t\tif(k & (1<<i)){",
+						"\t\t\tu = par[u][i];",
+					"\t\t}",
+				"\t}",
+				"\tif(u==v)return u;",
+				"\tfor(int i=LOG-1;i>=0;i--){",
+					"\t\tif(par[u][i]!=par[v][i]){",
+						"\t\t\tu = par[u][i];",
+						"\t\t\tv = par[v][i];",
+					"\t\t}",
+				"\t}",
+				"\treturn par[u][0];",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
