@@ -1,0 +1,55 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "gggg_gheavy_glight_gdecomposition",
+		"body": [
+			"const int N = 2e5+5;",
+			"vector<vector<int>> tree(N);",
+			"int now[N], dep[N], par[N], sz[N];",
+			"int Tree[N*4]; int arr[N], idx = 1;",
+			"int heavy[N], pos[N];",
+			"int upper[N], n, m;",
+			"void dfs(int node){",
+			"	int mx = 0;",
+			"	for(auto i : tree[node]){",
+			"		if(i==par[node])continue;",
+			"		par[i] = node;",
+			"		dep[i] = dep[node]+1;",
+			"		dfs(i); sz[node]+=sz[i];",
+			"		if(sz[i]>mx){",
+			"			heavy[node] = i;",
+			"			mx = sz[i];",
+			"		}",
+			"	}",
+			"	sz[node]++;",
+			"}",
+			"void HLD(int node){",
+			"	arr[idx] = now[node];",
+			"	pos[node] = idx++;",
+			"	if(!upper[node])upper[node] = node;",
+			"	if(heavy[node]){",
+			"		upper[heavy[node]] = upper[node];",
+			"		HLD(heavy[node]);",
+			"	}",
+			"	for(auto i : tree[node]){",
+			"		if(i!=par[node]&&i!=heavy[node])HLD(i);",
+			"	}",
+			"}",
+			"int lca(int u,int v){",
+			"	while(upper[u]!=upper[v]){",
+			"		if(dep[upper[u]]<dep[upper[v]])v = par[upper[v]];",
+			"		else u = par[upper[u]];",
+			"	}",
+			"	return dep[v]>dep[u]?u:v;",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
