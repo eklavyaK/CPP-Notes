@@ -5,7 +5,7 @@
 	// same ids are connected.
 	// Example:
 	"boilerplate": {
-		"prefix": "testfile",
+		"prefix": "codeforce",
 		"body": [
 			"#define PROGRAM int main(){rapid_iostream;int tc=1;cin>>tc;while(tc-->0){codeforce();}return 0;}",
 			"#define Compare(u) class Comp{public: bool operator() (u a, u b){return a.F < b.F;}};",
