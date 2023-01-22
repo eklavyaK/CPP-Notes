@@ -1,0 +1,27 @@
+10977 UVA (3)
+
+928 UVA (3)
+
+13116 UVA (4)
+
+314 UVA (3)
+
+11487 UVA (4)
+
+5622 LA (7)
+
+11931 UVA (5)
+
+http://www.spoj.com/problems/KNMOVE/ 3 //simple knights
+
+http://www.spoj.com/problems/SERGRID/ 3 //almost classical
+
+http://www.spoj.com/problems/NAKANJ/ 3 //Classical chess — KNIGHT
+
+http://www.spoj.com/problems/PUCMM223/ (4) //NICE (but not many languages) — 2 moving [x][y]
+
+http://www.spoj.com/problems/SPIRALGR/ (4) //NICE (not typical) [SIEVE]
+
+http://www.spoj.com/problems/DCEPC706/ (4) //NICE — travelling outside
+
+http://codeforces.com/contest/35/problem/C (3) //No obstacles [multiple starts]

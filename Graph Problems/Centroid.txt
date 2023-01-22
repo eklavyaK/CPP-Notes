@@ -1,0 +1,13 @@
+http://codeforces.com/contest/715/problem/C 9
+
+http://codeforces.com/contest/741/problem/D 8
+
+13164 UVA (7)
+
+http://codeforces.com/contest/752/problem/F 5
+
+http://codeforces.com/contest/766/problem/E 6
+
+http://codeforces.com/contest/833/problem/D 7 //Very nice — hard (thinking + imple) + FW
+
+http://www.spoj.com/problems/HOLI/ (4) //VERY NICE: 2*Distances from centroids

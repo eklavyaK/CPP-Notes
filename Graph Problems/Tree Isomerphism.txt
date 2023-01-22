@@ -1,0 +1,3 @@
+http://www.spoj.com/problems/DSUBTREE/ (5) //Isomorphism on trees (try all subsets)
+
+http://www.spoj.com/problems/TREEISO/ (4) //Simple isomorphism of trees

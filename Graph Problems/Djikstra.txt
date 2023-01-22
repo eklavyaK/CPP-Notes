@@ -1,0 +1,23 @@
+http://codeforces.com/contest/716/problem/D 7
+
+12047 UVA 4
+
+11514 UVA 4
+
+http://codeforces.com/contest/757/problem/F 7
+
+11338 UVA (4)
+
+11374 UVA (4)
+
+11097 UVA (4) //Divide to N*1000 nodes and go!
+
+13172 UVA (5) //6*DJ per query + permutations
+
+10816 UVA (4) //Easy Linear-Search by answer + DJ with path
+
+http://codeforces.com/contest/827/problem/F 7 //Very nice — Even&Odd
+
+http://www.spoj.com/problems/DELIVER/ (5) //Normalize coordinates + Optimalize
+
+http://www.spoj.com/problems/CCHESS/ (4) //Dijkstra as knight

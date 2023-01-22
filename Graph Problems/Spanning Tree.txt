@@ -1,0 +1,9 @@
+BLINNET SPOJ (3)
+
+11183 UVA (4) //Directed [need to know algo!]
+
+http://www.spoj.com/problems/ULM09/ (3) //Sum-Kruskal
+
+http://www.spoj.com/problems/IITKWPCG/ (4) //VERY NICE [log instead of price]
+
+http://codeforces.com/contest/17/problem/B (3) //Spanning tree [no dsu]

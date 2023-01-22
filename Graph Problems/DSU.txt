@@ -1,0 +1,37 @@
+http://codeforces.com/contest/723/problem/F 7
+
+13153 UVA (5)
+
+13169 UVA (3)
+
+11987 UVA (3)
+
+11474 UVA (4)
+
+http://codeforces.com/contest/687/problem/D 6
+
+http://codeforces.com/contest/680/problem/E 7 //+precalculation/brute force
+
+http://codeforces.com/contest/766/problem/D 5
+
+http://www.spoj.com/problems/LEXSTR/ (3) //Nice na stringu
+
+http://codeforces.com/contest/805/problem/C 3 //NICE (dijkstra like :P)
+
+http://www.spoj.com/problems/IITKWPCI/ (3) //VERY NICE
+
+http://www.spoj.com/problems/FRNDCIRC (3) //Classical DSU (NICE for practice)
+
+http://www.spoj.com/problems/FOXLINGS/ (3) Easy — just renumbering
+
+http://www.spoj.com/problems/NITTROAD/ (4) //Process from back
+
+http://www.spoj.com/problems/SHAHBG/ (2) //DSU not needes (simulated by array)
+
+http://codeforces.com/contest/598/problem/D (3) //Can be solved with DFS too
+
+http://codeforces.com/contest/9/problem/E (4) //Making one big cycle
+
+http://codeforces.com/contest/25/problem/D (4) //Could be done linear too
+
+http://codeforces.com/contest/28/problem/B (4) //NICE [imho bad statement]

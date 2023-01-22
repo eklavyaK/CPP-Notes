@@ -1,0 +1,21 @@
+http://www.spoj.com/problems/ADAGROW/
+
+http://codeforces.com/gym/100800 (Aqueduct Construction — A)
+
+10806 — Dijkstra, Dijkstra.
+
+12944 — Earthquake Disaster
+
+12891 — Risk of Trading
+
+11613 — Acme Corporation
+
+https://www.codechef.com/problems/HOGON
+
+http://www.spoj.com/problems/BNMT/ //Solved with MCMF yet I remember I thought normal flows would work too
+
+http://codeforces.com/problemset/problem/818/G
+
+http://codeforces.com/problemset/problem/802/C
+
+http://codeforces.com/contest/863/problem/F (5) //VERY NICE

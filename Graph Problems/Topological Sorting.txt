@@ -1,0 +1,7 @@
+http://codeforces.com/contest/765/problem/E 5
+
+http://codeforces.com/contest/770/problem/C 4 //reduce + toposort
+
+http://codeforces.com/contest/825/problem/E 4 //Toposort from biggest/backward
+
+http://www.spoj.com/problems/CODESPTI/ (6) //VERY NICE — Hard/Weak children

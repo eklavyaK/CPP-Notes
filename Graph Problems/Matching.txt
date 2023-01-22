@@ -1,0 +1,71 @@
+http://www.spoj.com/problems/MATCHING/ //Raw (no sauce)
+
+6234 — Tile Cut (LA)
+
+10080 — Gopher II (UVA) //Easy — sympathic
+
+11419 — SAM I AM (UVA) //Grid-Matching
+
+http://codeforces.com/gym/101485 (Elementary Math — E) //Very nice principal [not that hard]
+
+3673 — Black-White Grid (UVA) //Grid
+
+12927 — Points Cover (UVA)
+
+6851 — The Programmers (LA)
+
+6887 — Book Club //NICE
+
+6571 — It Can Be Arranged
+
+12530 — Game of Tiles
+
+http://codeforces.com/gym/100820 (Airport — A) //Nice one
+
+http://codeforces.com/gym/100753 (Bounty Hunterr II — B) //VERY NICE — I refered multiple times to this principal
+
+http://www.spoj.com/problems/NITT4/
+
+http://codeforces.com/gym/101408 (Cat vs Dog — C)
+
+1171 — Knights in Chessboard (II) (LOJ) //Classical chess
+
+11985 — Prime Independence (UVA)
+
+http://www.spoj.com/problems/SCPC11H/ //Very nice — yet not hard
+
+12644 — Vocabulary
+
+http://codeforces.com/gym/101047/problem/H
+
+http://codeforces.com/problemset/problem/659/E
+
+12972 — Cuban Challenge (UVA)
+
+1201 — Taxi Cab Scheme (UVA)
+
+12963 — Astragalus Nitidiflorus
+
+6525 — Attacking rooks (LA)
+
+3415 — Guardian of Decency (LA)
+
+http://www.spoj.com/problems/AMR12A/
+
+12159 — Gun Fight (UVA)
+
+https://www.codechef.com/problems/CHEFYODA //Imho matching is not the crucial part here
+
+12831 — Bob the Builder
+
+http://codeforces.com/problemset/problem/831/D
+
+11262 — Weird Fence
+
+12549 — Sentry Robots
+
+11138 — Nuts and Bolts
+
+http://www.spoj.com/problems/ADACITY/
+
+http://www.spoj.com/problems/ADAPATH/

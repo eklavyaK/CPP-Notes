@@ -1,0 +1,7 @@
+10937 UVA (4) //find '!' / BFS / TSP — NICE!
+
+10944 UVA (4)
+
+10818 UVA (5) //Easy — but not-easy implementation: ++Dijkstra [LEX!]
+
+http://www.spoj.com/problems/A_W_S_N/ (4) //BFS + TSP (path) — NICE

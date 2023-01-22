@@ -1,0 +1,65 @@
+12186 UVA (3)
+
+http://codeforces.com/contest/734/problem/E (5)
+
+http://codeforces.com/contest/727/problem/A (3)
+
+http://codeforces.com/contest/723/problem/E (6)
+
+http://codeforces.com/contest/709/problem/E (6)
+
+http://codeforces.com/contest/710/problem/E (4)
+
+http://codeforces.com/contest/758/problem/E (8)
+
+11323 UVA (5)
+
+http://codeforces.com/contest/760/problem/B (3)
+
+http://codeforces.com/contest/761/problem/E (6)
+
+http://codeforces.com/contest/638/problem/B (3) //connect cons. letters
+
+http://codeforces.com/contest/638/problem/C (4) //greedy idea — easy
+
+http://codeforces.com/contest/638/problem/D (5) //spec-DAG articulatin
+
+http://codeforces.com/contest/767/problem/C (4)
+
+http://codeforces.com/contest/781/problem/C (5)
+
+http://codeforces.com/contest/794/problem/D (5) //NICE! Right done dfs
+
+http://codeforces.com/contest/802/problem/K (5) //Slightly DP-like (NICE) TREE
+
+http://codeforces.com/contest/813/problem/C (3) //Simply 2 DFS: NICE + EASY
+
+http://codeforces.com/contest/841/problem/D (4) //DFS while tracking "next"
+
+http://codeforces.com/contest/845/problem/G (5) //Keep track of cycles
+
+http://codeforces.com/contest/844/problem/E (5) //Post-Order → line, Connect i → N-2: star
+
+http://www.spoj.com/problems/CAC/ (5) //VERY NICE! — Find all cycles in cactus
+
+http://codeforces.com/contest/849/problem/C (3) //State search by gauss
+
+http://codeforces.com/contest/846/problem/E (5) //NICE: DFS + some overflow logic
+
+http://www.spoj.com/problems/KOZE/ (3) //NICE: Floods
+
+http://www.spoj.com/problems/RIOI_2_3/ (4) //DFS /OR/ BFS /OR/ DSU [NICE][EASY][BF]
+
+http://www.spoj.com/problems/MAKEMAZE/ (3) //EASY — Simple dfs on grid
+
+http://codeforces.com/contest/861/problem/F (5) //VERY NICE: Modify dfs tree so it remains connected
+
+http://www.spoj.com/problems/GHOSTS/ (3) //NICE — must remain dag after each QR
+
+http://www.spoj.com/problems/AMR10J/ (5) //VERY NICE! — DFS+DP [DAG with cycles]
+
+http://codeforces.com/contest/24/problem/A (2)//NICE [DFS-ON-CYCLE]
+
+http://codeforces.com/contest/29/problem/C (3) //Find begining/end of line (graph)
+
+http://codeforces.com/contest/29/problem/D (4) //Tree [implementation][simulation]

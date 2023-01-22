@@ -1,0 +1,7 @@
+13211 UVA (5) //NICE — FW adding states
+
+http://www.spoj.com/problems/ROHAAN/ (3) //Classical
+
+http://codeforces.com/contest/25/problem/C (4) //Adding new edges .. need FW principal
+
+http://codeforces.com/contest/33/problem/B (3) //NICE [dijkstra could work too]

@@ -1,0 +1,5 @@
+http://codeforces.com/contest/789/problem/D //Adj EG + Self/everything
+
+http://codeforces.com/contest/21/problem/D (5) //[NICE][EulerTour+DP]
+
+http://codeforces.com/contest/36/problem/E (6) //VERY NICE [4odd is hardest]

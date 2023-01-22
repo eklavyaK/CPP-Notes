@@ -1,0 +1,61 @@
+http://www.spoj.com/problems/FASTFLOW/en/ //Raw (no sauce)
+
+4322 — Destroying the bus stations (Live Archive)
+
+11380 — Down Went The Titanic (UVA) //Interesting grid problem
+
+6395 — Surely You Congest (LA) //VERY NICE [slightly advanced]
+
+7204 — Blood groups (LA)
+
+http://codeforces.com/gym/100963 (Flame of Nucleus — F)
+
+11167 — Monkeys in the Emei Mountain //Also harder (imho)
+
+http://codeforces.com/problemset/problem/808/F (+BS)
+
+http://codeforces.com/problemset/problem/653/D (+BS)
+
+13000 — VIP Treatment (+BS)
+
+1242 — Necklace
+
+https://www.deadline24.pl/assets/problemsets/dl24.elim.2017.B.en.pdf (DEADLINE 24 problem — not sure if it can be submited :O)
+
+3487 — Duopoly (Near matching)
+
+http://codeforces.com/problemset/problem/847/J //Not sure if matching is right solutions but it works [also very near to matching]
+
+http://codeforces.com/problemset/problem/727/D
+
+http://codeforces.com/problemset/problem/704/D [Also advanced]
+
+5418 — A Plug for UNIX (LA)
+
+4957 — Fake scoreboard (LA) //If I remember well, other solutions was also possible
+
+1155 — Power Transmission (LOJ) //(classical)
+
+https://www.codechef.com/problems/ROBOTDAG //Ford-Fukherson
+
+10804 — Gopher Strategy (UVA)
+
+11506 — Angry Programmer (UVA) //Nodes division
+
+10511 — Councilling (UVA)
+
+563 — Crimewave
+
+1306 — The K-League (UVA)
+
+1345 — Jamie's Contact Groups
+
+10092 — The Problem with the Problem Setter
+
+Problem B. Roller Coaster Scheduling (GCJ — 2017)
+
+259 — Software Allocation (UVA)
+
+5905 — Pool construction (LA) //Imho harder
+
+10480 — Sabotage

@@ -1,0 +1,23 @@
+http://codeforces.com/contest/746/problem/G 5
+
+http://codeforces.com/contest/750/problem/F 9
+
+http://www.spoj.com/problems/RTREE/ 3 //longest path tree — query
+
+13175 UVA (2) //something like preorder build
+
+http://codeforces.com/contest/796/problem/C (3) //Just counting — inc by at most 2
+
+http://codeforces.com/contest/797/problem/D (4) //VERY NICE — sort + D&C all
+
+http://codeforces.com/contest/805/problem/E (4) //NICE — Treewidth coloring (greedy)
+
+http://codeforces.com/contest/828/problem/D (3) //Star construction
+
+http://www.spoj.com/problems/TREEDEGREE/ (3) //Degree from euler tree
+
+http://www.spoj.com/problems/UCV2013J/ (3) //Find what is leaf in Binary Tree
+
+http://www.spoj.com/problems/GCPC11J/ (3) //Finding ceter
+
+http://codeforces.com/contest/34/problem/D (3) //Simple reconstruction + DFS

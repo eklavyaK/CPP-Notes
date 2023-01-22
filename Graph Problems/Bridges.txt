@@ -1,0 +1,9 @@
+http://codeforces.com/contest/732/problem/F 7
+
+http://codeforces.com/contest/700/problem/C 7
+
+http://www.spoj.com/problems/EC_P/ (3) //bridges ONLY
+
+http://www.spoj.com/problems/SUBMERGE/ (3) //Direct articulation
+
+http://www.spoj.com/problems/GRAFFDEF/ (5) //Bridge tree

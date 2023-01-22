@@ -1,0 +1,5 @@
+http://www.spoj.com/problems/TFRIENDS/ (4) //just scc size
+
+http://www.spoj.com/problems/CAPCITY/ (4) //scc destination [WEAK TC]
+
+http://codeforces.com/contest/22/problem/E (5) //[NICE][make it strongly connected][SRC>DST]

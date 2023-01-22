@@ -1,0 +1,21 @@
+http://codeforces.com/contest/733/problem/F 7
+
+11354 UVA (4)
+
+http://www.spoj.com/problems/POLICEMEN/ (3) //simple + small graph
+
+http://www.spoj.com/problems/QTREE2/ (5) //very easy if bin. understrood
+
+http://codeforces.com/contest/828/problem/F 7 // Differently MST / Outside
+
+http://codeforces.com/contest/832/problem/D (5) //Classical + Depth /OR/ HLD +ST
+
+http://www.spoj.com/problems/DRTREE/ (5) //NICE [finding ancestor + depths]
+
+http://codeforces.com/problemset/problem/838/B (6) //VERY NICE [HLD + ET + ST]
+
+http://www.spoj.com/problems/NTICKETS/ (4) //Maximum on path
+
+http://www.spoj.com/problems/GRASSPLA/ (5) //HLD
+
+http://codeforces.com/contest/855/problem/D (4) //VERY VERY BAD STATEMENT (not so bad problem)
