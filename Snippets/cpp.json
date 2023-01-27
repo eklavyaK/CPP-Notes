@@ -22,7 +22,7 @@
 			"",
 			"}",
 			"",
-			"int main(){",
+			"signed main(){",
     		"\tcin.tie(0)->sync_with_stdio(0);",
     		"\tint t; cin>>t; while(t--)code();",
     		"\treturn 0;",
