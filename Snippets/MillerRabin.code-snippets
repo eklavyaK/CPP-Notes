@@ -1,0 +1,48 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "gggg_gisprime",
+		"body": [
+			"//Time complexity per number is O(k*log(n)), for numbers upto 1e6, k=5 was found sufficient",
+			"ll power(ll x, ll y, ll p){",
+			"	ll res = 1;",
+			"	x = x%p;",
+			"	while(y>0){",
+			"		if(y&1)res = (res*x)%p;",
+			"		y = y>>1;",
+			"		x = (x*x)%p;",
+			"	}",
+			"	return res;",
+			"}",
+			"bool MillerRabin(ll d, ll n){",
+			"	ll a = 2+rand()%(n-4);",
+			"	ll x = power(a,d,n);",
+			"	if(x==1 || x==n-1)return true;",
+			"	while(d!=n-1){",
+			"		x=(x*x)%n; d*=2;",
+			"		if(x==1)return false;",
+			"		if (x==n-1)return true;",
+			"	}",
+			"	return false;",
+			"}",
+			"bool isPrime(ll n, ll k){",
+			"	if(n<=1 || n==4)return false;",
+			"	if(n<=3)return true;",
+			"	ll d = n-1;",
+			"	while(d%2==0)d/=2;",
+			"	for(int i=0; i<k;i++){",
+			"		if(!MillerRabin(d,n))return false;",
+			"	}",
+			"	return true;",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
