@@ -38,3 +38,5 @@ int k = 4;
 arr[k]	= k++;        //here the value 4 is stored in arr[5] rather than arr[4] because the RHS is excuted first which increments the value of k to 5, so in RHS k will be taken as 4
 					  //then it'll be incremented to 5 which will act as value of k for LHS.
 =======================================================================================================================================================================================
+whenever you have to declare a large container of vectors or arrays(of order > 2e6), you must declare it as global variable and you can initilize it accordingly for each test case
+, only upto the value required in it, otherwise it'll lead to stack overflow
