@@ -10,7 +10,7 @@
 		"scope": "cpp",
 		"prefix": "gggg_gisprime",
 		"body": [
-			"//Time complexity per number is O(k*log(n)), for numbers upto 1e6, k=5 was found sufficient",
+			"//Time complexity per number is O(k*(log(n))^3), for numbers upto 1e6, k=5 was found sufficient",
 			"ll power(ll x, ll y, ll p){",
 			"	ll res = 1;",
 			"	x = x%p;",
@@ -22,7 +22,7 @@
 			"	return res;",
 			"}",
 			"bool MillerRabin(ll d, ll n){",
-			"	ll a = 2+rand()%(n-4);",
+			"	ll a = 2+rand()%(n-3);",
 			"	ll x = power(a,d,n);",
 			"	if(x==1 || x==n-1)return true;",
 			"	while(d!=n-1){",
