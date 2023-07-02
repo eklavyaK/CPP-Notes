@@ -8,12 +8,11 @@
 	// Example:
 	"Print to console": {
 		"scope": "cpp",
-		"prefix": "gggg_gmodular_ginverse",
+		"prefix": "gggg_gchinese_gremainder_gtheorem",
 		"body": [
 			"struct triples{",
 			"\tint g, x, y;",
 			"};",
-			
 			"triples extendedEuclidean(int a, int b){",
 			"\ttriples ans;",
 			"\tif(!b){",
@@ -28,15 +27,32 @@
 			"\tans.g = curr.g;",
 			"\treturn ans;",
 			"}",
-			"int MI(int A, int M){",
-			"\tif(gcd(A,M)!=1){",
-			"\t\tcout<<\"DOESN'T EXIST\"<<endl;",
-			"\t\treturn -1;",
+			"int merge(int a, int n, int b, int m, int lc){",
+			"\ttriples curr = extendedEuclidean(n,m);",
+			"\tif((b-a) % curr.g != 0) return -1;",
+			"\tint r = ((b-a)/curr.g) % (m/curr.g);",
+			"\tcurr.x = (curr.x % (m/curr.g) + (m/curr.g)) % (m/curr.g);",
+			"\tint u = r * curr.x % (m/curr.g);",
+			"\tint ans =  (a + u * n % lc) % lc;",
+			"\treturn (ans % lc + lc) % lc;",
+			"}",
+			"int CRT(vector<int> a, vector<int> m){    // vectors of remainders (a) when x is divided by values (m)",
+			"\tint n = a.size();",
+			"\tif(n==0) return -1;",
+			"\tfor(int i=0;i<n;i++){",
+			"\t\tif(m[i]==0) return -1;",
+			"\t\ta[i] = a[i]%m[i];",
 			"\t}",
-			"\tint X = extendedEuclidean(A,M).x;",
-			"\treturn (X%M+M)%M;",
+			"\tint r = a[0], lc = m[0];",
+			"\tfor(int i=1;i<n;i++){",
+			"\t\tint lcm = lc*m[i]/gcd(lc,m[i]);",
+			"\t\tr = merge(r,lc,a[i],m[i],lcm);",
+			"\t\tif(r==-1) return -1;",
+			"\t\tlc = lcm;",
+			"\t}",
+			"\treturn r;",
 			"}",
 		],
-		"description": "modularInverse"
+		"description": "Log output to console"
 	}
 }

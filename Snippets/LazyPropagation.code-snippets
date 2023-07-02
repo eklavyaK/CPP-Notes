@@ -1,0 +1,44 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "gggg_glazy_gpropagation",
+		"body": [
+			"const int N = 3e5;",
+			"int tree[N*4], lazy[N*4], dp[N];",
+			"void pushdown(int node){",
+				"\tlazy[2*node] += lazy[node];",
+				"\ttree[2*node] += lazy[node];",
+				"\tlazy[2*node+1] += lazy[node];",
+				"\ttree[2*node+1] += lazy[node];",
+				"\tlazy[node] = 0;",
+			"}",
+			"void update(int node, int l, int r, int st, int en, int c){",
+				"\tif(en<st || st>r || en<l) return;",
+				"\tif(st<=l && en>=r){",
+					"\t\ttree[node]+=c, lazy[node]+=c;",
+					"\t\treturn;",
+				"\t}",
+				"\tpushdown(node);",
+				"\tint mid = (l+r)>>1;",
+				"\tupdate(2*node,l,mid,st,en,c);",
+				"\tupdate(2*node+1,mid+1,r,st,en,c);",
+				"\ttree[node] = min(tree[2*node],tree[2*node+1]);",
+			"}",
+			"int query(int node, int l, int r, int st, int en){",
+				"\tif(en<st || st>r || en<l) return LLONG_MAX;",
+				"\tif(st<=l && en>=r) return tree[node];",
+				"\tpushdown(node);",
+				"\tint mid = (l+r)>>1;",
+				"\treturn min(query(2*node,l,mid,st,en),query(2*node+1,mid+1,r,st,en));",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}

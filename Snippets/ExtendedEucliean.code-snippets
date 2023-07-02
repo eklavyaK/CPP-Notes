@@ -8,13 +8,13 @@
 	// Example:
 	"Print to console": {
 		"scope": "cpp",
-		"prefix": "gggg_gmodular_ginverse",
+		"prefix": "gggg_geuclinean_gextended",
 		"body": [
 			"struct triples{",
 			"\tint g, x, y;",
 			"};",
-			
-			"triples extendedEuclidean(int a, int b){",
+			"",
+			"triples extendedeuclidean(int a, int b){",
 			"\ttriples ans;",
 			"\tif(!b){",
 			"\t\tans.x = 1;",
@@ -22,21 +22,13 @@
 			"\t\tans.g = a;",
 			"\t\treturn ans;",
 			"\t}",
-			"\ttriples curr = extendedEuclidean(b,a%b);",
+			"\ttriples curr = extendedeuclidean(b,a%b);",
 			"\tans.x = curr.y;",
 			"\tans.y = curr.x - curr.y*(a/b);",
 			"\tans.g = curr.g;",
 			"\treturn ans;",
 			"}",
-			"int MI(int A, int M){",
-			"\tif(gcd(A,M)!=1){",
-			"\t\tcout<<\"DOESN'T EXIST\"<<endl;",
-			"\t\treturn -1;",
-			"\t}",
-			"\tint X = extendedEuclidean(A,M).x;",
-			"\treturn (X%M+M)%M;",
-			"}",
 		],
-		"description": "modularInverse"
+		"description": "Log output to console"
 	}
 }
