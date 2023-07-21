@@ -27,7 +27,7 @@
 			"void allfactors(int n){",
 				"\tfac.clear();",
 				"\tprimefactor(n);",
-				"\tfac.push_back(1);",
+				"\tfac.push_back(1); //this is compulsory",
 				"\tfor(int i=0;i<pfac.size();i++){",
 					"\t\tn = i;",
 					"\t\twhile(i+1<pfac.size() && pfac[i+1]==pfac[i]) ++i;",

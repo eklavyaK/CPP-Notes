@@ -1,0 +1,30 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "gggg_gdijkstra",
+		"body": [
+			"priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> q;",
+			"q.push({0,1});",
+			"D[1] = 0;",
+			"while(!q.empty()){",
+				"\tauto [d,node] = q.top(); q.pop();",
+				"\tif(P[node]) continue;",
+				"\telse P[node] = 1;",
+				"\tfor(auto [U,C] : graph[node]){",
+					"\t\tif(D[U]>D[node]+C){",
+						"\t\t\tD[U] = D[node] + C;",
+						"\t\t\tq.push({D[U],U});",
+					"\t\t}",
+				"\t}",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
