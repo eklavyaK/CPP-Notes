@@ -8,23 +8,19 @@
 	// Example:
 	"Print to console": {
 		"scope": "cpp",
-		"prefix": "gggg_gbinomial_gcoefficient",
+		"prefix": "gggg_gbinary_gindexed_gtree",
 		"body": [
-			"const int N = 1e6 + 5, M = 1e9 + 7;",
-			"vector<ll> f(N, 1);",
-			"ll exp(int a, int n){",
-			"\tint res = 1;",
-			"\ta %= M;",
-			"\twhile(n > 0){",
-			"\t\tif(n & 1) res = res * a % M;",
-			"\t\ta = a * a % M; n >>= 1;",
-			"\t}",
-			"\treturn res;",
+			"void update(int pos, int c){",
+				"\tfor(pos++; pos <= n; pos += -pos&pos) bit[pos] += c;",
 			"}",
-			"ll bc(ll n, ll r){",
-			"\treturn f[n] * exp(f[n - r], M - 2) % M * exp(f[r], M - 2) % M;",
+			"int query(int l, int r){",
+				"\tint ans = 0;",
+				"\tif(r<l) return ans;",
+				"\tfor(r++; r > 0; r -= -r&r) ans += bit[r];",
+				"\tfor(l=l; l > 0; l -= -l&l) ans -= bit[l];",
+				"\treturn ans;",
 			"}",
 		],
-		"description": "gggg_binomialCoefficient"
+		"description": "Log output to console"
 	}
 }

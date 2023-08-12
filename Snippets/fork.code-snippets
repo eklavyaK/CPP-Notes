@@ -10,7 +10,7 @@
 		"scope": "cpp",
 		"prefix": "fork",
 		"body": [
-			"for(int k=0;k<n;k++)$0",
+			"for(int k = 0; k < n; k++)$0",
 		],
 		"description": "Log output to console"
 	}

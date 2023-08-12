@@ -10,7 +10,7 @@
 		"scope": "cpp",
 		"prefix": "gminpriorityqueue",
 		"body": [
-			"priority_queue<int,vector<int>,greater<int>>$0"
+			"priority_queue<int, vector<int>, greater<int>>$0"
 		],
 		"description": "ok"
 	}

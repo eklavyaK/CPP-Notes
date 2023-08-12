@@ -1,0 +1,37 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "gggg_gcentroid_gdecomposition",
+		"body": [
+			"vector<int> centroidDecomposition(vector<vector<int>> T, int n){",
+				"\tvector<int> I(n+5), sz(n+5), P(n+5);",
+				"\tfunction<void(int,int)> dfs = [&](int u, int p){",
+					"\t\tsz[u] = 1;",
+					"\t\tfor(auto v : T[u]) if(!I[v] && v != p) dfs(v, u), sz[u] += sz[v];",
+				"\t};",
+				"\tfunction<void(int,int)> decompose = [&](int u, int anc){",
+					"\t\tdfs(u, 0);",
+					"\t\tint ctr = u, p = 0;",
+					"\t\twhile(int f = 1){",
+						"\t\t\tfor(auto v : T[ctr]) if(!I[v] && 2 * sz[v] > sz[u] && v != p){",
+							"\t\t\t\tp = ctr, ctr = v, f = 0; break;",
+						"\t\t\t}",
+						"\t\t\tif(f) break;",
+					"\t\t}",
+					"\t\tI[ctr] = 1, P[ctr] = anc;",
+					"\t\tfor(auto u : T[ctr]) if(!I[u]) decompose(u,ctr);",
+				"\t};",
+				"\tdecompose(1,0);",
+				"\treturn P;   //returns parent info of the centroid tree, 0 for root",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}

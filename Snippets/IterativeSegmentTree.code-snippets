@@ -8,23 +8,26 @@
 	// Example:
 	"Print to console": {
 		"scope": "cpp",
-		"prefix": "gggg_gbinomial_gcoefficient",
+		"prefix": "gggg_gsegment_gtree_giterative",
 		"body": [
-			"const int N = 1e6 + 5, M = 1e9 + 7;",
-			"vector<ll> f(N, 1);",
-			"ll exp(int a, int n){",
-			"\tint res = 1;",
-			"\ta %= M;",
-			"\twhile(n > 0){",
-			"\t\tif(n & 1) res = res * a % M;",
-			"\t\ta = a * a % M; n >>= 1;",
-			"\t}",
-			"\treturn res;",
+			"void build(int n){",
+				"\tSeg.assign(2 * n + 5, 0);",
+				"\tfor(int i = 0; i < n; i++) Seg[i + n] = a[i];",
+				"\tfor(int i = n - 1; i > 0; --i) Seg[i] = Seg[2 * i] + Seg[2 * i + 1];",
 			"}",
-			"ll bc(ll n, ll r){",
-			"\treturn f[n] * exp(f[n - r], M - 2) % M * exp(f[r], M - 2) % M;",
+			"void upd(int pos, int c){",
+			    "\tfor(Seg[pos += n] = c; pos >>= 1;) Seg[pos] = max(Seg[2 * pos], Seg[2 * pos + 1]);",
+			"}",
+			"int qry(int l, int r){",
+				"\tif(r < l) return 0;",
+				"\tint mx = 0;",
+				"\tfor(l += n, r += n + 1; l < r; l >>= 1, r >>= 1){",
+					"\t\tif(r & 1) mx = max(mx, Seg[--r]);",
+					"\t\tif(l & 1) mx = max(mx, Seg[l++]);",
+				"\t}",
+				"\treturn mx;",
 			"}",
 		],
-		"description": "gggg_binomialCoefficient"
+		"description": "Log output to console"
 	}
 }

@@ -10,7 +10,7 @@
 		"scope": "cpp",
 		"prefix": "forjone",
 		"body": [
-			"for(int j=1;j<=m;j++)$0",
+			"for(int j = 1; j <= m; j++)$0",
 		],
 		"description": "Log output to console"
 	}

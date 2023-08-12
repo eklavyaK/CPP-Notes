@@ -10,7 +10,7 @@
 		"scope": "cpp",
 		"prefix": "forone",
 		"body": [
-			"for(int i=1;i<=n;i++)$0",
+			"for(int i = 1; i <= n; i++)$0",
 		],
 		"description": "Log output to console"
 	}

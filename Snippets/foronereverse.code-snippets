@@ -10,7 +10,7 @@
 		"scope": "cpp",
 		"prefix": "foronereverse",
 		"body": [
-			"for(int i=n;i>=1;i--)$0",
+			"for(int i = n; i >= 1; i--)$0",
 		],
 		"description": "Log output to console"
 	}

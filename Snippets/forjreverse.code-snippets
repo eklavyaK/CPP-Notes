@@ -10,7 +10,7 @@
 		"scope": "cpp",
 		"prefix": "forjreverse",
 		"body": [
-			"for(int j=m-1;j>=0;j--)$0",
+			"for(int j = m - 1; j >= 0; j--)$0",
 		],
 		"description": "Log output to console"
 	}
